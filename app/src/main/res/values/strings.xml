@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GlumciApp</string>
+    <string name="activity_first_toolbar_title">Toolbar Title</string>
+</resources>
