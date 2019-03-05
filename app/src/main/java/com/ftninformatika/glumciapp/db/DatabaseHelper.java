@@ -65,4 +65,10 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
         return filmDao;
     }
+    @Override
+    public void close() {
+        glumacDao = null;
+        filmDao = null;
+        super.close();
+    }
 }

@@ -20,8 +20,13 @@
             android:title="@string/activity_first_toolbar_title"
             app:layout_scrollFlags="scroll|enterAlways">
         </android.support.v7.widget.Toolbar>
+
     </android.support.design.widget.AppBarLayout>
 
+    <ListView
+        android:id="@+id/glumci"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>
